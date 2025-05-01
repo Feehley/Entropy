@@ -1,6 +1,12 @@
 # Entropy
 Entropy analysis tools cobbled together by vibe coding and pilfering from others. 
 ---
+### Installation
+```
+$ python3 -m pip install --upgrade pip
+$ pip3 install -r requirements.txt
+```
+---
 ### Usage
 ```
 $ ./entropy.py 
@@ -44,7 +50,7 @@ $ ./entropy.py -g $(which ls)
 	Shannon Entropy: 0.7242631509180365
 ##############################################################################################################################
 ```
-
+![Graph of ls](https://github.com/Feehley/Entropy/blob/main/examples/ls_entropy.png)
 ---
 ### Raster
 ```
@@ -54,7 +60,7 @@ $ ./entropy.py -r $(which ls)
 	Shannon Entropy: 0.7242631509180365
 ##############################################################################################################################
 ```
-
+![Bitraster of ls](https://github.com/Feehley/Entropy/blob/main/examples/ls_bitraster.png)
 ---
 ### Bitraster Comparison
 ```
@@ -64,7 +70,7 @@ $ ./entropy.py -c $(which ls) $(which w)
 	Shannon Entropy: 0.49888669677190156
 ##############################################################################################################################
 ```
-
+![Bitraster Comparison of ls vs w](https://github.com/Feehley/Entropy/blob/main/examples/ls_vs_w_bitraster.PNG)
 ---
 ### XXD
 ```
