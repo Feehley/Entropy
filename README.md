@@ -43,6 +43,8 @@ $ ./entropy.py -l $(which ls)
 ```
 ---
 ### Graph
+> [!NOTE]
+> The green section on the graph below shows the ASCII printable character range
 ```
 $ ./entropy.py -g $(which ls)
 ##############################################################################################################################
